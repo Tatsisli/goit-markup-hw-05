@@ -82,7 +82,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   display: block;
-  transition: bacgroung-color 250ms var(--cub-baz), color 250ms var(--cub-baz);
+  transition: background-color 250ms var(--cub-baz), color 250ms var(--cub-baz);
 }
 .btn:is(:hover, :focus) {
   background-color: var(--focus-color);
@@ -313,7 +313,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: bacgroung-color 250ms var(--cub-baz);
+  transition: background-color 250ms var(--cub-baz);
 }
 .team-empl-social-icon {
   width: 16px;
@@ -380,7 +380,8 @@ img {
   background-color: var(--light);
   border: 1px solid var(--accent);
   padding: 12px 24px;
-  transition: box-shadow 250ms var(--cub-baz), border 250ms var(--cub-baz);
+  transition: box-shadow 250ms var(--cub-baz), border 250ms var(--cub-baz),
+    background-color 250ms var(--cub-baz), color 250ms var(--cub-baz);
 }
 .select-btn:is(:hover, :focus) {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -553,4 +554,3 @@ img {
   width: 8px;
   height: 8px;
 }
-
